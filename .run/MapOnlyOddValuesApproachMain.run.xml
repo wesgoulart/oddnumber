@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MapOnlyOddValuesApproachMain" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.techtest.MapOnlyOddValuesApproachMain" />
+    <module name="oddnumber" />
+    <option name="PROGRAM_PARAMETERS" value="&quot;wesgoulart-vigil/input&quot; &quot;wesgoulart-vigil/output&quot;" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.techtest.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
