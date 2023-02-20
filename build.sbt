@@ -8,4 +8,8 @@ lazy val root = (project in file("."))
     idePackagePrefix := Some("com.techtest")
   )
 
+libraryDependencies += "org.scala-lang.modules" %% "scala-parallel-collections" % "1.0.4"
+libraryDependencies += "com.amazonaws" % "aws-java-sdk" % "1.12.410"
+
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.15" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest-funsuite" % "3.2.15" % "test"
